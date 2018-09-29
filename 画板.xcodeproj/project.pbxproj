@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B613FFCA213FE86F008A5A8A /* XMGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B613FFC9213FE86F008A5A8A /* XMGTool.m */; };
 		B62FF2B5210066F8006F7EEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2B4210066F8006F7EEF /* AppDelegate.m */; };
 		B62FF2B8210066F8006F7EEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2B7210066F8006F7EEF /* ViewController.m */; };
 		B62FF2BB210066F8006F7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62FF2B9210066F8006F7EEF /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		B62FF2C3210066F9006F7EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2C2210066F9006F7EEF /* main.m */; };
 		B62FF2CD210066FA006F7EEF /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2CC210066FA006F7EEF /* __Tests.m */; };
 		B62FF2D8210066FA006F7EEF /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2D7210066FA006F7EEF /* __UITests.m */; };
+		B62FF2E721006DA1006F7EEF /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2E621006DA1006F7EEF /* DrawView.m */; };
+		B62FF2EA210070D4006F7EEF /* MyUIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B62FF2E9210070D4006F7EEF /* MyUIBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B613FFC8213FE86F008A5A8A /* XMGTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGTool.h; sourceTree = "<group>"; };
+		B613FFC9213FE86F008A5A8A /* XMGTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGTool.m; sourceTree = "<group>"; };
+		B613FFCE213FE9EA008A5A8A /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		B62FF2B0210066F8006F7EEF /* 画板.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画板.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF2B3210066F8006F7EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B62FF2B4210066F8006F7EEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		B62FF2D3210066FA006F7EEF /* 画板UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画板UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62FF2D7210066FA006F7EEF /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		B62FF2D9210066FA006F7EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62FF2E521006DA1006F7EEF /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		B62FF2E621006DA1006F7EEF /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		B62FF2E8210070D4006F7EEF /* MyUIBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIBezierPath.h; sourceTree = "<group>"; };
+		B62FF2E9210070D4006F7EEF /* MyUIBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +111,22 @@
 		B62FF2B2210066F8006F7EEF /* 画板 */ = {
 			isa = PBXGroup;
 			children = (
+				B613FFC8213FE86F008A5A8A /* XMGTool.h */,
+				B613FFC9213FE86F008A5A8A /* XMGTool.m */,
 				B62FF2B3210066F8006F7EEF /* AppDelegate.h */,
 				B62FF2B4210066F8006F7EEF /* AppDelegate.m */,
 				B62FF2B6210066F8006F7EEF /* ViewController.h */,
 				B62FF2B7210066F8006F7EEF /* ViewController.m */,
+				B62FF2E521006DA1006F7EEF /* DrawView.h */,
+				B62FF2E621006DA1006F7EEF /* DrawView.m */,
+				B62FF2E8210070D4006F7EEF /* MyUIBezierPath.h */,
+				B62FF2E9210070D4006F7EEF /* MyUIBezierPath.m */,
 				B62FF2B9210066F8006F7EEF /* Main.storyboard */,
 				B62FF2BC210066F9006F7EEF /* Assets.xcassets */,
 				B62FF2BE210066F9006F7EEF /* LaunchScreen.storyboard */,
 				B62FF2C1210066F9006F7EEF /* Info.plist */,
 				B62FF2C2210066F9006F7EEF /* main.m */,
+				B613FFCE213FE9EA008A5A8A /* Single.h */,
 			);
 			path = "画板";
 			sourceTree = "<group>";
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62FF2EA210070D4006F7EEF /* MyUIBezierPath.m in Sources */,
 				B62FF2B8210066F8006F7EEF /* ViewController.m in Sources */,
 				B62FF2C3210066F9006F7EEF /* main.m in Sources */,
+				B62FF2E721006DA1006F7EEF /* DrawView.m in Sources */,
+				B613FFCA213FE86F008A5A8A /* XMGTool.m in Sources */,
 				B62FF2B5210066F8006F7EEF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appTest.app.--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appTest.app.--iii";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,7 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appTest.app.--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appTest.app.--iii";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
